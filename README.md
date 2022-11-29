@@ -1,5 +1,4 @@
-# Envio de paquetes InstaYa
-
+# Envio de paquetes InterVeloz
 La empresa InstaYA requiere un sistema por medio del cual los usuarios puedan programar la recogida de paquetes para su futuro envío.
 Los datos mínimos que requiere la empresa por parte del usuario para recoger el paquete son los siguientes:
 
