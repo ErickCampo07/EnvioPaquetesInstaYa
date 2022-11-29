@@ -30,6 +30,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: radial-gradient(circle at 0.86% 21.63%, #ffd160 0, #f2d65f 5%, #e3db61 10%, #d4df65 15%, #c4e36c 20%, #b3e774 25%, #a1ea7f 30%, #8eec8b 35%, #78ef98 40%, #5ff1a6 45%, #3cf2b5 50%, #00f3c4 55%, #00f4d4 60%, #00f4e4 65%, #00f4f3 70%, #00f4ff 75%, #00f3ff 80%, #00f2ff 85%, #00f0ff 90%, #00eeff 95%, #00ebff 100%);
 }
 
 h1 {

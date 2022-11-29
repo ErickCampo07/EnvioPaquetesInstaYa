@@ -7,7 +7,8 @@ const Login = () => {
         navigate("/");
     }
     return (
-        <form>
+        <div>
+            <form class="form">
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
                 <input 
@@ -25,15 +26,15 @@ const Login = () => {
                     class="form-control" 
                     id="exampleInputPassword1"></input>
             </div>
-            <div class="mb-3 form-check">
-                <input 
-                    type="checkbox" 
-                    class="form-check-input" 
-                    id="exampleCheck1"></input>
-                <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
-            </div>
             <button type="submit" class="btn btn-primary" onClick={()=> handleOnClick()}>Iniciar sesión</button>
+
         </form>
+        <div>
+            <a href="/register" class="link-primary">¿Eres nuevo? Regístrate aquí</a>
+            <div><a href="/forgot-password" class="link-primary">¿Olvidaste tu contraseña?</a></div>
+        </div>        
+    </div>
+        
     );
 };
 

@@ -1,3 +1,15 @@
 input::placeholder{
     font-style: italic;
 }
+
+form{
+    font-size: 120%;
+    background-color:rgb(248, 233, 68);
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
